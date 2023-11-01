@@ -29,7 +29,7 @@ fun main() {
         held2.schadenZufuegen(schadenAmHeld2)
         held3.schadenZufuegen(schadenAmHeld3)
 
-        val unterboss: Unterboss? = null // Hier sollten Sie den Unterboss initialisieren, wenn er beschworen wird
+        val unterboss: Unterboss? = null
 
         if (unterboss != null) {
             val schadenAmUnterboss = unterboss.angriffsschaden()
